@@ -1,13 +1,32 @@
 /* Common shared Styles */
-body{
+body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-.text-primary{
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.banner-description {
+    color:#757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.text-primary {
     color: #FD6E0A;
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -17,43 +36,84 @@ body{
     color: white;
 }
 
-nav{
+nav {
     color: #181818;
     display: flex;
     justify-content: space-between;
     margin: 0px 200px;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
 
 }
 
-.nav-title{
+.nav-title {
     color: #181818;
     font-family: Open Sans;
     font-size: 45px;
     font-style: normal;
     font-weight: 800;
 }
+
 /* header related styles */
-.header{
+.header {
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .profile-picture{
-    width: 500px;
-    
 
+.banner .profile-picture {
+    width: 500px;
+
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #878787;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-description {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Main section style */
+
+
+
+/* About Section Style */
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
 }
